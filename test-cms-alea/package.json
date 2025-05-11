@@ -1,0 +1,15 @@
+{
+  "name": "test-cms-alea",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=angular-app\" \"npm run dev --workspace=studio\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "workspaces": [
+    "angular-app",
+    "studio"
+  ]
+}
