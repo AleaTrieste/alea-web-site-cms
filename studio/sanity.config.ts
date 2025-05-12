@@ -1,3 +1,4 @@
+import { projectId, dataset } from './sanity-env';
 import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
@@ -7,8 +8,8 @@ export default defineConfig({
   name: 'default',
   title: 'alea-website',
 
-  projectId: 'bwlva5lz',
-  dataset: 'production',
+  projectId,
+  dataset,
 
   plugins: [structureTool(), visionTool()],
 
