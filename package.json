@@ -11,5 +11,8 @@
   "packageManager": "pnpm@10.10.0",
   "dependencies": {
     "concurrently": "^9.1.2"
-  }
+  },
+  "workspaces": [
+    "studio"
+  ]
 }
