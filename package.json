@@ -1,0 +1,15 @@
+{
+  "name": "alea-web-site-cms",
+  "version": "0.0.1",
+  "description": "Monorepo for the Alea Web Site CMS",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gianluca La Rosa",
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
